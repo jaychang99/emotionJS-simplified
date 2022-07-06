@@ -1,17 +1,9 @@
 import { HTMLAttributes } from "react";
-import { StyledInput, StyledInputLabel } from "./styles";
 
-interface Props extends HTMLAttributes<HTMLDivElement> {
-  label: string;
-}
+interface Props extends HTMLAttributes<HTMLDivElement> {}
 
-function Input({ children, label, ...props }: Props) {
-  return (
-    <>
-      {label && <StyledInputLabel>{label}</StyledInputLabel>}
-      <StyledInput {...props}></StyledInput>
-    </>
-  );
+function Input({ ...props }: Props) {
+  return <p>inputComponent</p>;
 }
 
 export default Input;
