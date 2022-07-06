@@ -11,14 +11,6 @@ export const StyledInput = styled.input`
   border-radius: 8px;
   width: 100%;
   background-color: ${(props) => props.theme.color.white};
-  &::placeholder {
-    color: ${(props) => props.theme.color.primary500};
-  }
-
-  &:focus {
-    outline: none;
-    box-shadow: 0 0 10px ${(props) => props.theme.color.primary500};
-  }
 `;
 
 export const StyledInputLabel = styled.span`
