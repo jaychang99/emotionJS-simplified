@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import Input from "../components/common/Input";
 
 const Container = styled.div`
   max-width: 400px;
@@ -12,12 +11,7 @@ const Container = styled.div`
 `;
 
 function InputPage() {
-  return (
-    <Container>
-      <Input label="이메일" placeholder="이메일을 입력하세요" />
-      <Input placeholder="이메일을 입력하세요" />
-    </Container>
-  );
+  return <p>this is input page</p>;
 }
 
 export default InputPage;
